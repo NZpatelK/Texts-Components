@@ -8,73 +8,69 @@ body {
     background-image: repeating-linear-gradient(333deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(130, 26, 221),rgb(63, 178, 202));
 }
 
-#msg{
-    padding: 10px 10px;
-}
-
-#msg path {
+.StrokeContainer .title path {
     fill: transparent;
-    stroke-width: 5;
-    stroke: #000;
+    stroke: #fff;
+    stroke-width: 4;
 }
 
-#msg path:nth-child(1) {
-    stroke-dasharray: 486;
-    stroke-dashoffset: 486;
+.StrokeContainer .title path:nth-child(1) {
+    stroke-dasharray: 240;
+    stroke-dashoffset: 240;
     animation: draw 1s linear forwards 2.7s;
 }
 
-#msg path:nth-child(2) {
-    stroke-dasharray: 268;
-    stroke-dashoffset: 268;
+.StrokeContainer .title path:nth-child(2) {
+    stroke-dasharray: 385;
+    stroke-dashoffset: 385;
     animation: draw 1s linear forwards 2.4s;
 }
 
-#msg path:nth-child(3) {
-    stroke-dasharray: 329;
-    stroke-dashoffset: 329;
+.StrokeContainer .title path:nth-child(3) {
+    stroke-dasharray: 287;
+    stroke-dashoffset: 287;
     animation: draw 1s linear forwards 2.1s;
 }
 
-#msg path:nth-child(4) {
-    stroke-dasharray: 262;
-    stroke-dashoffset: 262;
+.StrokeContainer .title path:nth-child(4) {
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
     animation: draw 1s linear forwards 1.8s;
 }
 
-#msg path:nth-child(5) {
-    stroke-dasharray: 1268;
-    stroke-dashoffset: 1268;
+.StrokeContainer .title path:nth-child(5) {
+    stroke-dasharray: 378;
+    stroke-dashoffset: 378;
     animation: draw 1s linear forwards 1.5s;
 }
 
-#msg path:nth-child(6) {
-    stroke-dasharray: 262;
-    stroke-dashoffset: 262;
+.StrokeContainer .title path:nth-child(6) {
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
     animation: draw 1s linear forwards 1.2s;
 }
 
-#msg path:nth-child(7) {
-    stroke-dasharray: 268;
-    stroke-dashoffset: 268;
+.StrokeContainer .title path:nth-child(7) {
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
     animation: draw 1s linear forwards 0.9s;
 }
 
-#msg path:nth-child(8) {
-    stroke-dasharray: 268;
-    stroke-dashoffset: 268;
+.StrokeContainer .title path:nth-child(8) {
+    stroke-dasharray: 253;
+    stroke-dashoffset: 253;
     animation: draw 1s linear forwards 0.6s;
 }
 
-#msg path:nth-child(9) {
-    stroke-dasharray: 331;
-    stroke-dashoffset: 331;
+.StrokeContainer .title path:nth-child(9) {
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
     animation: draw 1s linear forwards 0.3s;
-}
+}   
 
-#msg path:nth-child(10) {
-    stroke-dasharray: 1162;
-    stroke-dashoffset: 1162;
+.StrokeContainer .title path:nth-child(10) {
+    stroke-dasharray: 488;
+    stroke-dashoffset: 488;
     animation: draw 1s linear forwards 0s;
 }
 
